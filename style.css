@@ -1,0 +1,110 @@
+html {
+    position: relative;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.jumbotron {
+    min-height: 635px;
+    background-image: url(gambar/gambar.webp);
+    margin-top: 30px;
+    filter: brightness(0.6);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000;
+    background-position: 0 -100px;
+    overflow: hidden;
+}
+
+.jumbotron img {
+    text-align: center;
+    top: 0;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #191f36;
+    text-shadow: 1px 1px 10px rbga(0, 0, 0, 0.5);
+}
+
+.jumbotron h1, 
+.jumbotron p {
+    text-shadow: 1px 1px 10px rbga(0, 0, 0, 0.5);
+    color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+}
+
+.jumbotron p {
+    color: #000;
+}
+
+section {
+    min-height: 100px;
+}
+
+.about {
+    min-height: 670px;
+    font-family: 'comic sans ms';
+    font-size: 16px;
+    font-weight: 800;
+    background-color: lightskyblue;
+    color: #000;
+}
+
+.about hr {
+    width: 250px;
+    border-top: 3px solid;
+    border-color: #191f36;
+}
+
+.galeri hr {
+    width: 250px;
+    border-top: 3px solid;
+    border-color: #191f36;
+}
+
+.galeri {
+    background-color: lightskyblue;
+    color: #000;
+    justify-content: center;
+}
+
+.contact {
+    min-height: 600px;
+    background-color: lightskyblue;
+    color: #000;
+}
+
+
+.contact hr {
+    width: 250px;
+    border-top: 3px solid;
+    border-color: #191f36;
+    color: #000;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #191f36;
+    padding-top: 43px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 1em;
+}
+
+footer p i {
+    color: lightskyblue;
+}
+
